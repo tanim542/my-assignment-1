@@ -1,0 +1,296 @@
+/* font family */
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  transition: all 0.3s ease;
+}
+.inter-normal:hover {
+  color: #1e40af;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f4ff;
+}
+/* Shared styles */
+.btn-primary {
+  background-color: #4e47ff;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* header */
+header {
+  background-image: url("../Assets/Hero-bg.png");
+  height: 100vh;
+  width: 100%;
+}
+
+/* Nav bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 150px;
+  padding: 50px 5px;
+}
+
+nav h1 {
+  color: #4e47ff;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+nav button {
+  width: 135px;
+  height: 50px;
+}
+
+/* Banner */
+
+.banner {
+  margin: 160px 150px;
+  text-align: center;
+}
+.banner h1 {
+  font-size: 85px;
+  font-weight: bold;
+}
+
+.banner button {
+  width: 175px;
+  height: 50px;
+  margin-top: 40px;
+}
+
+/* Main section */
+
+main {
+  margin: 120px 150px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 14px;
+}
+
+.left-content {
+  width: 600px;
+}
+.left-content h2 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.left-content p {
+  font-size: 24px;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.left-content button {
+  width: 230px;
+  height: 50px;
+}
+
+.action img {
+  width: 400px;
+  height: 330px;
+  border-radius: 48px;
+    transition: all 0.3s ease;
+  overflow: hidden;
+}
+.action img:hover{
+    transform: scale(1.01);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.users {
+  background-color: #e5e7ff;
+  text-align: center;
+  margin-top: 120px;
+  padding: 50px 80px;
+  border-radius: 24px;
+}
+
+.users h1 {
+  font-size: 38px;
+  font-weight: bold;
+}
+.rate {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.content h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+}
+.content p {
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+/* feedback section */
+.feedback {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.feedback h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.review {
+  /* border: 1px solid black; */
+  background-color: #ffff;
+  width: 380px;
+  height: 270px;
+  text-align: left;
+  border-radius: 14px;
+  padding: 24px 24px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.review:hover {
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.3);
+}
+#star {
+  color: yellow;
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+
+.review h2 {
+  margin-bottom: 10px;
+}
+.review p {
+  font-size: 18px;
+  opacity: 0.7;
+  margin-bottom: 16px;
+}
+
+.profile {
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+}
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.review-content {
+  display: flex;
+  justify-content: space-between;
+}
+.review-content h3 {
+  margin-top: 5px;
+}
+
+/* focus section */
+.focus {
+  text-align: center;
+  padding: 70px 150px;
+  border-radius: 14px;
+  background-color: #fff;
+  margin-bottom: 100px;
+}
+
+.focus h1 {
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.focus p {
+  font-size: 18px;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+
+.focus button {
+  width: 200px;
+  height: 50px;
+  margin-bottom: 16px;
+}
+.focus img {
+  width: 880px;
+  height: 390px;
+  border-radius: 48px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.focus img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* form section */
+.message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 5px;
+}
+.message h1 {
+  font-size: 97px;
+  font-weight: bold;
+  width: 600px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+input {
+  width: 500px;
+  height: 60px;
+  padding: 20px 32px;
+  border-radius: 10px;
+  background: #ffff;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+textarea {
+  width: 500px;
+  height: 130px;
+  padding: 20px 32px;
+  border-radius: 10px;
+  background: #ffff;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  font-size: 20px;
+}
